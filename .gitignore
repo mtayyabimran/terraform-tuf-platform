@@ -1,0 +1,9 @@
+# Terraform local provider cache and state files (never commit!)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*.tfvars
